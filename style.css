@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.upp{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    float: right;
+
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+}
+nav ul li a:hover{
+    color: red;
+}
+.active{
+    color: red
+}
+span{
+    color: orangered;
+}
+.dtl{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.dtl h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+
+}
+.dtl a{
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 6px;
+}
+.images{
+    width: 45%;
+    height:80%;
+    bottom: 10px;
+    position: absolute;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    border-radius: 50%;
+
+}
+img:hover{
+    left: 45%;
+}
+p{
+    line-height: 1.5;
+}
+h2{
+    color: black
+    margin: 30px;
+}
+section{
+    margin-left: 8%;
+}
+div.gallery{
+    margin: 20px;
+    width: 180px;
+    float: left;
+  
+}
+div.gallery:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+div .gallery img{
+    width: 100%;
+    height: auto;
+}
+h3{
+    color: orange;
+}
+div .container{
+    padding: 20px;
+}
+div.abt{
+    padding: 30px;
+}
+div .abt:hover{
+ box-shadow: 0 6px 10px 0 rgb(0, 0, 0 0.3), o 10px 24px 0 rgba(0, 0, 0, 0.24);
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
